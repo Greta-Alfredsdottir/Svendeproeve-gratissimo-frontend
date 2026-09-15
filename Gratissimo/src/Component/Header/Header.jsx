@@ -1,10 +1,10 @@
 import style from "./Header.module.scss";
 import logo from "../../assets/logo/logo.png";
 
-export function Mainheader() {
+export function Header() {
   return (
-    <>
-      <img className={style.Headerstyle} src={logo} alt="" />
-    </>
+    <section className={style.Headerstyle}>
+      <img className={style.img} src={logo} alt="" />
+    </section>
   );
 }

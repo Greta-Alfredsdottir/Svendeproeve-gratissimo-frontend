@@ -1,0 +1,17 @@
+.Navbar {
+  display: flex;
+  justify-content: flex-start;
+  background: #8b0808;
+
+  padding: 1rem;
+  gap: 1rem;
+}
+.Navbar a {
+  color: #f9f9f9;
+  text-decoration: none;
+}
+.Promt {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}

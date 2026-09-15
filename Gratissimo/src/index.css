@@ -7,3 +7,13 @@
   flex-direction: column;
   min-height: 100vh;
 }
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .page {
+    grid-template-columns: 280px 2fr 1fr;
+  }
+}

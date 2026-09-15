@@ -1,5 +1,3 @@
-import { Mainheader } from "./Component/Header/Header";
-import { Mainfooter } from "./Component/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router";
 import { Frontpage } from "./Pages/Frontpage/Frontpage";
 
