@@ -18,7 +18,6 @@ export function Nyhedscard() {
             src={`${API_URL}${article.imageUrl}`}
             alt={article.title}
           />
-
           <h2>{article?.title}</h2>
         </div>
       ))}

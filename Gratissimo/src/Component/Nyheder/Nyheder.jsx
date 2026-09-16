@@ -1,3 +1,3 @@
-export function Mainnyheder() {
+export function Nyheder() {
   return <>Her laver vi nyheder</>;
 }
