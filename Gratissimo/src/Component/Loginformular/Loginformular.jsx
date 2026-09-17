@@ -1,7 +1,7 @@
 // Her skal der laves login
 
 import { React, useState } from "react";
-
+import style from "./Loginformular.module.scss";
 export function Loginform() {
   // Declares state and sets the initial state value to null
   const [username, setUsername] = useState(null);
@@ -33,6 +33,7 @@ export function Loginform() {
         <h1>Login</h1>
         {error ? <h4>{error}</h4> : ""}
         <input
+          className={style.Loginform}
           type="text"
           name="username"
           required
