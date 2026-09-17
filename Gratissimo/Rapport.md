@@ -9,3 +9,4 @@ Username: info@webudvikler.dk Password: password
    Tirsdag: sidder stadig fast på forside og kan ikke få noget til at virke
    onsdag: Fik hjælp fra Jack, fordi jeg lavede en lille fejl, som jeg ikke kunne finde self.
    Torsdag:Har siddet og prøvet at få mit login til at makke ret, men det vil den ikke.
+   kan ikke fixe det. har lavet lit mere på footer, og lavet forkert kategori. ved ikke hvordan jeg skal lave det som den er i figma
