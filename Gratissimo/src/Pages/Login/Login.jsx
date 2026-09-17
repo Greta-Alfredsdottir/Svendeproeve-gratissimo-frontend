@@ -1,3 +1,5 @@
+import { Loginform } from "../../Component/Loginformular/Loginformular";
+
 export function Login() {
-  return <h2>Login</h2>;
+  return <Loginform />;
 }

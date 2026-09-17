@@ -2,7 +2,7 @@
 
 import { React, useState } from "react";
 
-export function Loginform(props) {
+export function Loginform() {
   // Declares state and sets the initial state value to null
   const [username, setUsername] = useState(null);
   const [password, setPassword] = useState(null);
