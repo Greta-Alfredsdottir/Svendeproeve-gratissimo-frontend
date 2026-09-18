@@ -10,7 +10,7 @@ export function Nyhedscard() {
   if (!data || data.length === 0) return <p>Ingen artikler fundet.</p>;
 
   return (
-    <>
+    <section className={style.Nyhedscard}>
       {data?.map((article) => (
         <div key={article.id}>
           <img
@@ -21,6 +21,6 @@ export function Nyhedscard() {
           <h2>{article?.title}</h2>
         </div>
       ))}
-    </>
+    </section>
   );
 }
